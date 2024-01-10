@@ -9,7 +9,7 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
+} from 'chart.js/auto';
 
 import { Bar } from 'react-chartjs-2';
 import { Mydata } from '../Data/Mydata';
@@ -72,22 +72,22 @@ const CombinedChart = () => {
         backgroundColor: '#91cb74',
         yAxisID: 'emissions-y-axis',
       },
-    //   {
-    //     type: 'line',
-    //     label: 'R/E Ratio 2022',
-    //     data: RERatioData?.map(([y2022]) => y2022?.toFixed(2)),
-    //     borderColor: '#dd9f9f',
-    //     fill: false,
-    //     yAxisID: 'reratio-y-axis',
-    //   },
-    //   {
-    //     type: 'line',
-    //     label: 'R/E Ratio 2023',
-    //     data: RERatioData?.map(([, y2023]) => y2023?.toFixed(2)),
-    //     borderColor: '#eac866',
-    //     fill: false,
-    //     yAxisID: 'reratio-y-axis',
-    //   },
+      {
+        type: 'line',
+        label: 'R/E Ratio 2022',
+        data: RERatioData?.map(([y2022]) => y2022?.toFixed(2)),
+        borderColor: '#dd9f9f',
+        fill: false,
+        yAxisID: 'reratio-y-axis',
+      },
+      {
+        type: 'line',
+        label: 'R/E Ratio 2023',
+        data: RERatioData?.map(([, y2023]) => y2023?.toFixed(2)),
+        borderColor: '#eac866',
+        fill: false,
+        yAxisID: 'reratio-y-axis',
+      },
     ],
   };
 
