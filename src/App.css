@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.chartSection{
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+
+.combineChart{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 80%
+}
+
+.doughnutSection{
+  padding: 1 3rem !important;
+  width: 100%;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.doughnut{
+  width: 45%;
+  height: 60%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.mytable{
+  height: 60%;
+  overflow: scroll;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .combineChart{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .doughnutSection{
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+
+  .doughnut{
+    margin-top: 2rem !important;
+    width: 80%;
+  }
+
+  .mytable{
+    margin-top: 2rem !important;
   }
 }

@@ -1,0 +1,32 @@
+.uppernav{
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.right{
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width:800px) {
+    .uppernav{
+        justify-content: space-between;
+    }
+
+    .left{
+        gap: 0.2rem;
+    }
+
+    .right{
+        gap: 0.4rem;
+    }
+}

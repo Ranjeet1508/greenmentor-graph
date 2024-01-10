@@ -1,25 +1,55 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import MyDoughnut from './Components/Chart/MyDoughnut';
+import CombinedChart from './Components/Chart/CombinedChart';
+import MyTable from './Components/Data/MyTable';
+import MyCards from './Components/MyCards/MyCards';
+import UpperNav from './Components/Navbar/UpperNav';
+import Timeline from './Components/Navbar/Timeline';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+        <div className='chartSection'>
+
+          <div>
+            <UpperNav />
+          </div>
+
+          <div>
+            <Timeline />
+          </div>
+
+          <div>
+            <MyCards />
+          </div>
+          
+          <div className='combineChart'>
+            <CombinedChart/>
+          </div>
+
+          <div className='doughnutSection'>
+            <div className='doughnut'>
+              <MyDoughnut/>
+            </div>
+
+            <div className='mytable'>
+              <MyTable/>
+            </div>            
+          </div>
+        </div>
+
+        
+    
     </div>
   );
 }
 
 export default App;
+

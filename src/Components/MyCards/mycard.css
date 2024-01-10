@@ -1,0 +1,44 @@
+.cardsection{
+    margin-top: 2rem;
+    padding: 0 2rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+.lastCard {
+    padding-left: 1rem;
+    width: 150px;
+    height: 155px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #EBEBEB;
+    background: rgba(2, 171, 108, 0.67);
+    box-shadow: 0px 0.599px 5.32px 0px rgba(0, 0, 0, 0.01), 0px 2.01px 17.869px 0px rgba(0, 0, 0, 0.01), 0px 9px 80px 0px rgba(0, 0, 0, 0.02);
+    color: rgba(255, 255, 255, 0.84);
+
+}
+
+.lastCard h1 {
+    text-align: center;
+    font-family: HelveticaNeue;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .cardsection{
+        padding: 0.2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+}
