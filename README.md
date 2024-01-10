@@ -1,6 +1,7 @@
 Welcome to Greenmentor-Graphs! This repository contains the code for an incredible front-end website showcasing various data visualizations using Chart.js.
 
-![greenmentor](https://github.com/Ranjeet1508/greenmentor-graph/assets/128625635/fcaacfd3-68d2-4528-b7cd-c178bda70efe)
+![greenmentor](https://github.com/Ranjeet1508/greenmentor-graph/assets/128625635/ed82eb44-6e4f-4e34-8c60-a5298ae5bb9c)
+
 
 
 
