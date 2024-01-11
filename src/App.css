@@ -10,18 +10,20 @@
 
 
 .chartSection{
-  width: 100%;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .combineChart{
+  margin-top: 3rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   width: 80%
 }
 
 .doughnutSection{
+  margin-top: 2rem;
   padding: 1 3rem !important;
   width: 100%;
   display: flex;
@@ -43,8 +45,43 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+
+  .chartSection{
+    width: 70vw;
+  }
   .combineChart{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .doughnutSection{
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 2rem !important;
+    padding: 0 2rem !important;
+  }
+
+  .doughnut{
+    width: 100%;
+    height: 40%;
+  }
+
+  .mytable{
+    margin-top: -3rem;
+    height: 40%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .chartSection{
+    width: 70vw;
+  }
+  /* .combineChart{
     width: 100%;
   }
 
@@ -60,5 +97,5 @@
 
   .mytable{
     margin-top: 2rem !important;
-  }
+  } */
 }

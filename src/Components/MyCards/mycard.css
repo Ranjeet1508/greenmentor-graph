@@ -34,11 +34,27 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .cardsection{
-        padding: 0.2rem;
+        margin-top: 1rem;
+        padding: 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
+    }
+
+    .lastCard{
+        padding-left: 0.5rem;
+        width: 130px;
+        height: 135px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cardsection{
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }

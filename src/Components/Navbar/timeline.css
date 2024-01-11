@@ -14,10 +14,16 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .timeline{
         margin-top: 0.5rem;
         padding: 1rem;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timeline{
+        margin-left: 4rem;
     }
 }

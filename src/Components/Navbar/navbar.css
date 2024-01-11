@@ -90,17 +90,37 @@ button{
     font-size: 21px !important;
 }
 
-@media screen and (max-width: 800px) {
-    .button{
-        margin-top: 4rem;
-        width: 147px !important;
-        height: 40px !important;
+@media screen and (max-width: 900px) {
+    button{
+        margin-top: 3rem;
+        width: 150px !important;
+        height: 45px !important;
+        border-radius: 11px;
+        background-color: #02AB6C !important;
+        color: white;
+    }
+    .nav-container{
+        width: 30vw !important;
+    }
+
+    .energy, .water{
+        margin-left: -15px;
+        font-size: 18px;
+        gap: 2px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    button{
+        margin-top: 3rem;
+        width: 120px !important;
+        height: 45px !important;
         border-radius: 11px;
         background-color: #02AB6C !important;
         color: white;
     }
 
     .nav-container{
-        width: 30vw;
+        width: 30vw !important;
     }
 }
