@@ -12,7 +12,7 @@ import {
 } from 'chart.js/auto';
 
 import { Bar } from 'react-chartjs-2';
-import { Mydata } from '../Data/Mydata';
+// import { Mydata } from '../Data/Mydata';
 
 ChartJS.register(
   CategoryScale,
@@ -51,7 +51,7 @@ const getRERatioDataByMonth = (data) => {
 
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-const CombinedChart = () => {
+const CombinedChart = ({Mydata}) => {
   const emissionsData = getEmissionsDataByMonth(Mydata);
   const RERatioData = getRERatioDataByMonth(Mydata);
 

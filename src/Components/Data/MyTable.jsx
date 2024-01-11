@@ -11,10 +11,9 @@ import {
     TableContainer,
     Collapse,
 } from '@chakra-ui/react'
-import { Mydata } from './Mydata';
-import { color } from 'framer-motion';
 
-const MyTable = () => {
+
+const MyTable = ({Mydata}) => {
     const dataOf2023 = Mydata.filter(item => item.Year===2023);
     console.log(dataOf2023)
     return (

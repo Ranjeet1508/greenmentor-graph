@@ -1,7 +1,7 @@
 import React from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
-import { Mydata } from '../Data/Mydata';
+// import { Mydata } from '../Data/Mydata';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -41,7 +41,7 @@ const options = {
   },
 };
 
-const MyDoughnut = () => {
+const MyDoughnut = ({Mydata}) => {
   const emissionsData = getEmissionsBySupplier(Mydata);
   const supplierLabels = getSupplierLabels(Mydata);
 
