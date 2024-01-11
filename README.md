@@ -2,6 +2,12 @@ Welcome to Greenmentor-Graphs! This repository contains the code for an incredib
 
 ![greenmentor](https://github.com/Ranjeet1508/greenmentor-graph/assets/128625635/ed82eb44-6e4f-4e34-8c60-a5298ae5bb9c)
 
+This is fully responsive here is the view of tab 
+![responsive tab](https://github.com/Ranjeet1508/greenmentor-graph/assets/128625635/de865a8a-86eb-42e0-bd38-2cc15dd128d4)
+
+and here is the view of mobile
+![responsive mobile](https://github.com/Ranjeet1508/greenmentor-graph/assets/128625635/95f5b2b3-0944-4786-a526-ed26cdc433eb)
+
 
 
 
@@ -23,7 +29,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/Ranjeet1508/Greenmentor-graphs.git
+git clone https://github.com/Ranjeet1508/greenmentor-graph.git
 Navigate to the project directory:
 bash
 Copy code
